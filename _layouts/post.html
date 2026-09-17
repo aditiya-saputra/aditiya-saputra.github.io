@@ -1,0 +1,24 @@
+---
+layout: default
+---
+<article class="post">
+  <p class="post-meta">
+    <time datetime="{{ page.date | date_to_xmlschema }}">{{ page.date | date: "%d %B %Y" }}</time>
+    {% if page.categories %} • {{ page.categories | join: ", " }}{% endif %}
+    {% if page.tags %} • {{ page.tags | join: ", " }}{% endif %}
+  </p>
+  <h1 class="post-title">{{ page.title }}</h1>
+  {% if page.description %}
+  <p class="post-desc">{{ page.description }}</p>
+  {% endif %}
+  {% if page.label %}
+  <p><span class="badge">{{ page.label }}</span></p>
+  {% endif %}
+  <div class="post-content">
+    {{ content }}
+  </div>
+  <hr />
+  <p class="sumber-note">Sumber primer dirujuk di dalam artikel. Lihat <a href="{{ '/kebijakan-redaksi/' | relative_url }}">Kebijakan Redaksi</a> untuk standar verifikasi dan koreksi.</p>
+  {% include comments.html %}
+  <p><a href="{{ '/' | relative_url }}">← Kembali ke Beranda</a></p>
+</article>

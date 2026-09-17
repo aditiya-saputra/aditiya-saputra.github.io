@@ -1,0 +1,58 @@
+# Konfigurasi Jekyll — kompatibel GitHub Pages (Actions)
+# Docs: https://docs.github.com/en/pages/setting-up-a-github-pages-site-with-jekyll
+title: "Catatan Aditiya"
+tagline: "Analisis Politik Terkini Indonesia"
+description: "Blog analisis politik Indonesia: kebijakan, pemilu, parlemen, hukum, dan opini berbasis data dan sumber primer."
+url: "https://aditiya-saputra.github.io"
+baseurl: ""
+author:
+  name: "Aditiya Saputra"
+  email: "aditiya.saputrax1x2@gmail.com"
+  github: "aditiya-saputra"
+
+lang: id
+timezone: Asia/Jakarta
+
+# Markdown (kramdown + GFM — standar GitHub Pages terbaru)
+markdown: kramdown
+kramdown:
+  input: GFM
+  hard_wrap: false
+  syntax_highlighter: rouge
+
+# Plugin yang didukung GitHub Pages / actions/jekyll-build-pages
+plugins:
+  - jekyll-feed
+  - jekyll-seo-tag
+  - jekyll-sitemap
+
+# Defaults layout per Context7 best practice
+defaults:
+  - scope:
+      path: ""
+      type: "posts"
+    values:
+      layout: "post"
+  - scope:
+      path: ""
+    values:
+      layout: "page"
+
+# Feed + SEO
+feed:
+  path: feed.xml
+  posts_limit: 20
+
+# Komentar Giscus — isi setelah repo live (lihat _includes/comments.html)
+# giscus:
+#   repo: "aditiya-saputra/aditiya-saputra.github.io"
+#   category: "Announcements"
+#   mapping: "pathname"
+
+# Exclude dari build
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - vendor
+  - README.md
+  - LICENSE
