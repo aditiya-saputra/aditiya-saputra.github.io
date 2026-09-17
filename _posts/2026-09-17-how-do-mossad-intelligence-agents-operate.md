@@ -1,6 +1,6 @@
 ---
 title: "How Do Mossad Intelligence Agents Operate, and Why Does the Indonesian Government Not Expel Israeli Citizens?"
-date: 2026-09-18 09:00:00 +0700
+date: 2026-09-17 18:00:00 +0700
 categories: [Politik Global]
 tags: [Israel, Indonesia, Intelijen, Data Terbuka]
 description: "Analisis dua pertanyaan berbeda: apa yang diketahui publik dari sumber terbuka tentang Mossad, dan bagaimana kerangka kebijakan luar negeri dan imigrasi Indonesia bekerja."
