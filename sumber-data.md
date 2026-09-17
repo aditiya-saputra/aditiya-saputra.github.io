@@ -7,6 +7,8 @@ permalink: /sumber-data/
 
 Setiap artikel politik di blog ini wajib merujuk data yang bisa dicek publik. Ini daftar utama yang saya pakai:
 
+> Sumber data terbuka terdiri dari pemerintah, kampus, dan media massa lainnya. Saya tidak membaca dari satu sumber demi mencari data yang terverifikasi dan meminimalisir kesalahan penyampaian data di kemudian hari.
+
 ## Dalam Negeri 🇮🇩
 - **Peraturan & putusan:** peraturan.go.id, mkri.id, ma-ri.go.id, jdih masing-masing lembaga
 - **Legislatif & pemilu:** dpr.go.id, dpd.go.id, kpu.go.id, bawaslu.go.id
@@ -18,6 +20,13 @@ Setiap artikel politik di blog ini wajib merujuk data yang bisa dicek publik. In
 - **Pembangunan & ekonomi:** World Bank Open Data (data.worldbank.org), UN Data (data.un.org), UNDP HDR
 - **Peristiwa & media global:** GDELT Project (gdeltproject.org), ACLED (acleddata.com, untuk konflik)
 - **Iklim & kesehatan:** WHO data, Climate Watch, Our World in Data
+
+## Kampus & Akademik 🎓
+- **Jurnal & makalah:** Google Scholar, arsip CIA/CSI (cia.gov), National Security Archive (GWU)
+- **Lembaga riset:** FOI Swedia, Citizen Lab Toronto, Our World in Data (Oxford)
+
+## Media Massa 📰
+- Media arus utama dipakai sebagai **pintu masuk**, bukan vonis — setiap klaim penting diverifikasi ulang ke dokumen primer atau minimal dua media independen.
 
 ## Cara saya mengutip data
 1. Tautan langsung ke dataset + tanggal akses / versi.

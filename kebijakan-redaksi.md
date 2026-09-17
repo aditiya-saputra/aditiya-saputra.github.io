@@ -21,6 +21,8 @@ Setiap artikel memakai salah satu label di atas.
 
 Tautan + tanggal akses dicantumkan di badan artikel. Dataset yang dipakai diarsipkan (tautan + versi/tanggal unduh) agar bisa direplikasi.
 
+Tiga pilar sumber — **pemerintah, kampus, dan media massa lainnya** — selalu disilangkan. Tidak membaca dari satu sumber demi mencari data yang terverifikasi dan meminimalisir kesalahan penyampaian data di kemudian hari.
+
 ### 3. Koreksi
 Kesalahan diperbaiki terbuka: cantumkan tanggal koreksi dan bagian yang diubah. Tidak ada hapus diam-diam.
 
