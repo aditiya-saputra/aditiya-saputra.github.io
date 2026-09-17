@@ -1,20 +1,21 @@
 ---
 layout: default
 title: "Beranda"
-description: "Analisis politik Indonesia berbasis data dan sumber primer."
+description: "Analisis politik dalam dan luar negeri berbasis data terbuka dan sumber primer."
 ---
 
 <div class="hero">
-  <h1>Catatan Aditiya — Analisis Politik Terkini</h1>
-  <p>Membaca kebijakan, pemilu, dan parlemen dengan jernih: memisahkan <strong>fakta</strong>, <strong>analisis</strong>, dan <strong>opini</strong>.</p>
+  <h1>Catatan Aditiya — Analisis Politik Dalam & Luar Negeri</h1>
+  <p>Membaca kebijakan, pemilu, parlemen, dan geopolitik dengan jernih: memisahkan <strong>fakta</strong>, <strong>analisis</strong>, dan <strong>opini</strong> — selalu dengan <strong>data terbuka</strong>.</p>
   <p>
     <a href="{{ '/kategori/' | relative_url }}">Jelajahi kategori</a> •
+    <a href="{{ '/sumber-data/' | relative_url }}">Sumber data terbuka</a> •
     <a href="{{ '/tentang/' | relative_url }}">Tentang penulis</a> •
     <a href="{{ '/feed.xml' | relative_url }}">RSS</a>
   </p>
 </div>
 
-<input id="search" class="search-box" type="search" placeholder="Cari artikel (misal: pemilu, DPR, MK)..." oninput="filterPosts()" />
+<input id="search" class="search-box" type="search" placeholder="Cari artikel (misal: pemilu, DPR, geopolitik, data terbuka)..." oninput="filterPosts()" />
 
 <h2>Terbaru</h2>
 <div class="post-list">

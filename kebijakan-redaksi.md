@@ -14,8 +14,12 @@ Blog politik harus bisa dipercaya. Standar saya:
 
 Setiap artikel memakai salah satu label di atas.
 
-### 2. Sumber
-Diutamakan: UU/peraturan, putusan MK/MA, situs resmi DPR/DPD/KPU/Bawaslu/Kemendagri, data BPS. Tautan dicantumkan di badan artikel beserta tanggal akses.
+### 2. Sumber: data terbuka dulu
+**Dalam negeri:** UU/peraturan, putusan MK/MA, situs resmi DPR/DPD/KPU/Bawaslu/Kemendagri, data BPS, Satu Data Indonesia.
+
+**Luar negeri / global:** UN Data, World Bank Open Data, IDEA (pemilu global), V-Dem (demokrasi), GDELT (peristiwa dunia), situs resmi parlemen/pemilu masing-masing negara.
+
+Tautan + tanggal akses dicantumkan di badan artikel. Dataset yang dipakai diarsipkan (tautan + versi/tanggal unduh) agar bisa direplikasi.
 
 ### 3. Koreksi
 Kesalahan diperbaiki terbuka: cantumkan tanggal koreksi dan bagian yang diubah. Tidak ada hapus diam-diam.

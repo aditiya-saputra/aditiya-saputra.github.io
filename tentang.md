@@ -15,11 +15,11 @@ Saya **Aditiya Saputra** — *beginner multi-talent from Indonesia*.
 - 🌱 Sedang mendalami **bot development & automation**
 - 💬 Bisa ditanya soal **Discord bots, automation, and more**
 
-Blog ini adalah catatan pribadi saya tentang politik Indonesia terkini — bukan media partai, bukan buzzer, bukan afiliasi kampanye.
+Blog ini adalah catatan pribadi saya tentang politik dalam dan luar negeri — bukan media partai, bukan buzzer, bukan afiliasi kampanye. Semua analisis memakai **data terbuka** (lihat [Sumber Data](/sumber-data/)).
 
 **Prinsip:**
 1. Fakta dipisahkan dari opini.
-2. Merujuk sumber primer (UU, putusan MK/MA, situs resmi DPR, KPU, Kemendagri).
+2. Merujuk sumber primer dan data terbuka (dalam negeri: UU, putusan MK/MA, DPR, KPU, BPS; luar negeri: UN, World Bank, IDEA, V-Dem, GDELT).
 3. Terbuka terhadap koreksi — setiap koreksi dicatat transparan.
 
 **Projects:**

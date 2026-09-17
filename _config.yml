@@ -1,8 +1,8 @@
 # Konfigurasi Jekyll — kompatibel GitHub Pages (Actions)
 # Docs: https://docs.github.com/en/pages/setting-up-a-github-pages-site-with-jekyll
 title: "Catatan Aditiya"
-tagline: "Analisis Politik Terkini Indonesia"
-description: "Blog analisis politik Indonesia: kebijakan, pemilu, parlemen, hukum, dan opini berbasis data dan sumber primer."
+tagline: "Analisis Politik Dalam & Luar Negeri Berbasis Data Terbuka"
+description: "Blog analisis politik dalam dan luar negeri: kebijakan, pemilu, parlemen, hukum, geopolitik, dan opini berbasis data terbuka dan sumber primer."
 url: "https://aditiya-saputra.github.io"
 baseurl: ""
 author:

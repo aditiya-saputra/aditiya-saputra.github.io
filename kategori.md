@@ -1,9 +1,11 @@
 ---
 layout: page
 title: Kategori
-description: Jelajahi artikel berdasarkan topik.
+description: Jelajahi artikel dalam & luar negeri berdasarkan topik.
 permalink: /kategori/
 ---
+
+**Jalur cepat:** Dalam negeri → `Kebijakan`, `Pemilu & Parlemen`, `Hukum`, `Ekonomi-Politik`, `Opini`. Luar negeri → `Politik Global`. Semua artikel berbasis [data terbuka](/sumber-data/).
 
 {% assign cats = site.categories | sort %}
 {% for cat in cats %}
