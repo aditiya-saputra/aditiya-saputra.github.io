@@ -1,19 +1,19 @@
 {% comment %}
 Komentar via Giscus (gratis, berbasis GitHub Discussions).
-Cara aktifkan setelah repo live:
-1. Aktifkan Discussions di repo Settings
-2. Install https://giscus.app lalu isi repo/category di _config.yml -> site.giscus
-3. Uncomment script di bawah.
+Terhubung ke aditiya-saputra/aditiya-saputra.github.io, kategori Announcements.
 {% endcomment %}
-{% if site.giscus and site.giscus.repo %}
+<div class="giscus"></div>
 <script src="https://giscus.app/client.js"
-  data-repo="{{ site.giscus.repo }}"
+  data-repo="aditiya-saputra/aditiya-saputra.github.io"
+  data-repo-id="R_kgDOUMc0vA"
   data-category="Announcements"
+  data-category-id="DIC_kwDOUMc0vM4DFza4"
   data-mapping="pathname"
   data-strict="0"
   data-reactions-enabled="1"
+  data-emit-metadata="0"
+  data-input-position="bottom"
   data-theme="preferred_color_scheme"
-  crossorigin="anonymous" async></script>
-{% else %}
-<p class="muted"><em>Komentar akan aktif setelah Discussions diaktifkan. Lihat panduan di README.</em></p>
-{% endif %}
+  data-lang="id"
+  crossorigin="anonymous"
+  async></script>

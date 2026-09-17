@@ -43,10 +43,12 @@ feed:
   path: feed.xml
   posts_limit: 20
 
-# Komentar Giscus — isi setelah repo live (lihat _includes/comments.html)
+# Komentar Giscus — aktif (lihat _includes/comments.html)
 # giscus:
 #   repo: "aditiya-saputra/aditiya-saputra.github.io"
+#   repo_id: "R_kgDOUMc0vA"
 #   category: "Announcements"
+#   category_id: "DIC_kwDOUMc0vM4DFza4"
 #   mapping: "pathname"
 
 # Exclude dari build
