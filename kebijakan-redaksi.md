@@ -24,5 +24,7 @@ Tautan + tanggal akses dicantumkan di badan artikel. Dataset yang dipakai diarsi
 ### 3. Koreksi
 Kesalahan diperbaiki terbuka: cantumkan tanggal koreksi dan bagian yang diubah. Tidak ada hapus diam-diam.
 
+> Setiap penghapusan atau koreksi sebelumnya bisa dibaca kembali di commit GitHub (demi transparansi data).
+
 ### 4. Independensi
 Tidak menerima bayaran untuk menulis posisi politik tertentu. Jika ada konflik kepentingan, akan dinyatakan di artikel.
