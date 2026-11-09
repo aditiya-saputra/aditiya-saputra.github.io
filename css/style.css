@@ -53,6 +53,34 @@ body {
   overflow-x: hidden;
 }
 
+/* Efek minimalis: masuk perlahan tanpa mengganggu konten */
+.hero-content,
+.hero-aside {
+  animation: subtle-rise 0.7s ease both;
+}
+
+.hero-aside {
+  animation-delay: 0.1s;
+}
+
+@keyframes subtle-rise {
+  from {
+    opacity: 0;
+    transform: translateY(10px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .hero-content,
+  .hero-aside {
+    animation: none;
+  }
+}
+
 /* Tipografi & Pembungkus */
 .container {
   width: 100%;
@@ -658,6 +686,10 @@ body {
 .channel-link:hover {
   border-bottom-color: var(--accent-white);
   color: #ffffff;
+}
+
+.channel-link:hover .platform-icon {
+  transform: translateY(-1px);
 }
 
 /* Footer */
