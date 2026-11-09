@@ -501,6 +501,57 @@ body {
   color: var(--accent-white);
 }
 
+/* Brantas-Judol Section */
+.brantas-section {
+  padding: 4.5rem 0;
+  border-bottom: 1px solid var(--border-light);
+}
+
+.brantas-intro {
+  margin-bottom: 2rem;
+}
+
+.brantas-intro p {
+  color: var(--accent-gray);
+  line-height: 1.8;
+  font-size: 1rem;
+  max-width: 680px;
+}
+
+.brantas-stats-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 1.25rem;
+  margin-bottom: 2rem;
+}
+
+.brantas-stat-card {
+  background: var(--bg-secondary);
+  border: 1px solid var(--border-light);
+  border-left: 3px solid var(--accent-white);
+  padding: 1.25rem 1.5rem;
+}
+
+.stat-number {
+  font-family: var(--font-mono);
+  font-size: 1.6rem;
+  font-weight: 700;
+  color: var(--accent-white);
+  line-height: 1.2;
+}
+
+.stat-label {
+  font-size: 0.82rem;
+  color: var(--text-muted);
+  margin-top: 0.3rem;
+}
+
+.brantas-actions {
+  display: flex;
+  gap: 1rem;
+  flex-wrap: wrap;
+}
+
 /* Skills Section */
 .skills-section {
   padding: 4.5rem 0;

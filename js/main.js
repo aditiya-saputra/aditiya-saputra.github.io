@@ -10,6 +10,7 @@ document.addEventListener('DOMContentLoaded', () => {
   initMobileNav();
   initActiveNavHighlight();
   loadGitHubData('aditiya-saputra');
+  loadBrantasStats();
 });
 
 /**
@@ -234,4 +235,49 @@ function escapeHtml(str) {
     .replace(/>/g, '&gt;')
     .replace(/"/g, '&quot;')
     .replace(/'/g, '&#039;');
+}
+
+/**
+ * Format angka besar menjadi bentuk ringkas (misal: 45.7B, 93.1K)
+ */
+function formatNumber(n) {
+  if (n >= 1e9) return (n / 1e9).toFixed(1) + 'B';
+  if (n >= 1e6) return (n / 1e6).toFixed(1) + 'M';
+  if (n >= 1e3) return (n / 1e3).toFixed(1) + 'K';
+  return String(n);
+}
+
+/**
+ * Memuat statistik Brantas-Judol CT scanner dari stats.json di repo GitHub
+ */
+async function loadBrantasStats() {
+  const statusEl = document.getElementById('brantasStatus');
+  const url = 'https://raw.githubusercontent.com/aditiya-saputra/brantas-judol/main/stats.json';
+
+  try {
+    const res = await fetch(url);
+    if (!res.ok) throw new Error(`HTTP ${res.status}`);
+    const data = await res.json();
+
+    const setEl = (id, val) => {
+      const el = document.getElementById(id);
+      if (el) el.textContent = val;
+    };
+
+    setEl('brantasCTScanned', formatNumber(data.ct_entries_scanned));
+    setEl('brantasDomains', formatNumber(data.domains_listed));
+    setEl('brantasLogs', String(data.ct_logs_monitored));
+
+    if (data.last_updated) {
+      const d = new Date(data.last_updated * 1000);
+      setEl('brantasUpdated', d.toLocaleDateString('id-ID', {
+        day: 'numeric', month: 'short', year: 'numeric', hour: '2-digit', minute: '2-digit'
+      }));
+    }
+
+    if (statusEl) statusEl.textContent = 'Data live dari repositori';
+  } catch (err) {
+    console.warn('Gagal memuat statistik Brantas-Judol:', err.message);
+    if (statusEl) statusEl.textContent = 'Gagal memuat data (offline / limit)';
+  }
 }
